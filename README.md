@@ -1,7 +1,7 @@
 # HolaWeBHere
 hola we b here
 Team
-Product Owner: space cat
+Product Owner:
 Scrum Master: space cat
 Development Team Members: space cat, space cat
 Table of Contents
