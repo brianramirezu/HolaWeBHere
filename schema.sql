@@ -1,10 +1,10 @@
-DROP DATABASE IF EXISTS workout;
+DROP DATABASE IF EXISTS sources;
 
-CREATE DATABASE workout;
+CREATE DATABASE sources;
 
-USE workout;
+USE sources;
 
-CREATE TABLE items (
+CREATE TABLE places (
   id int NOT NULL AUTO_INCREMENT,
   reps integer NOT NULL,
   exercise varchar(50) NOT NULL,
@@ -17,10 +17,10 @@ CREATE TABLE items (
  *  command list for mysql:
  *	http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.html*/
 
- INSERT INTO items (reps, exercise) VALUES (10, "planks");
- INSERT INTO items (reps, exercise) VALUES (10, "push-ups");
- INSERT INTO items (reps, exercise) VALUES (10, "burpees");
- INSERT INTO items (reps, exercise) VALUES (10, "sit-ups");
- INSERT INTO items (reps, exercise) VALUES (10, "squats");
- INSERT INTO items (reps, exercise) VALUES (10, "pull-ups");
- INSERT INTO items (reps, exercise) VALUES (0, "take a break!");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
+ INSERT INTO items (reps, exercise) VALUES (0, "");
