@@ -1,0 +1,17 @@
+# node_modules
+node_modules
+
+#package-lock.json
+ package-lock.json
+# bundles
+react-client/dist/bundle.js
+
+## Mac OSX ##
+.DS_Store 
+
+# Logs 
+logs 
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
